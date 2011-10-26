@@ -1,0 +1,24 @@
+package kethua;
+
+public class CaSau extends DongVat {
+		// thuoc tinh
+		public String mauDa;
+		
+		// phuong thuc
+		public CaSau() {
+			this.ten = "Ca Sau";
+			this.chieuCao = 20;
+			this.canNang = 300;
+			this.mauDa = "Nau";
+			
+			this.xuatThongTin();
+		}
+		
+		public void xuatThongTin() {
+			System.out.println("********* CA SAU *********");
+			System.out.println("Ten: " + this.ten);
+			System.out.println("Chieu Cao: " + this.chieuCao);
+			System.out.println("Can Nang: " + this.canNang);
+			System.out.println("Can Nang: " + this.mauDa);
+		}
+}

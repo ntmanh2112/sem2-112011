@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+processors,sysinfo,,,"2",1318384139906
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1318384139906
+java.runtime.version,sysinfo,,,"1.7.0-ea-b108",1318384139906
+java.specification.name,sysinfo,,,"Java Platform API Specification",1318384139906
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318384139906
+java.specification.version,sysinfo,,,"1.7",1318384139906
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1318384139906
+java.version,sysinfo,,,"1.7.0-ea",1318384139906
+java.vm.info,sysinfo,,,"mixed mode, sharing",1318384139906
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1318384139906
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1318384139906
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318384139906
+java.vm.specification.version,sysinfo,,,"1.0",1318384139906
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1318384139906
+java.vm.version,sysinfo,,,"19.0-b05",1318384139906
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.scheduler",1318384140000
+started,bundle,org.eclipse.team.cvs.ui,3.3.200.I20090521-1750,"org.eclipse.team.cvs.ui",1318384140187
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1318384140265
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1318384140390
+started,bundle,org.eclipse.emf.ecore,2.5.0.v200906151043,"org.eclipse.emf.ecore",1318384140937
+started,bundle,org.eclipse.jem.util,2.0.200.v200905140200,"org.eclipse.jem.util",1318384140937
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1318384140937
+started,bundle,org.eclipse.jst.jsf.common,1.1.5.v20090505,"org.eclipse.jst.jsf.common",1318384141031
+started,bundle,org.eclipse.jst.jsf.core,1.2.0.v20090514,"org.eclipse.jst.jsf.core",1318384141062
+started,bundle,org.eclipse.mylyn.team.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.team.ui",1318384141218

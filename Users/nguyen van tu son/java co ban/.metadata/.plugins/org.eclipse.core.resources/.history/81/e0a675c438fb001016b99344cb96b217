@@ -1,0 +1,10 @@
+package kethua;
+
+public class CaSau {
+	public String mauDa;
+	
+	public CaSau() {
+		this.xuatThongTin();
+		this.
+	}
+}

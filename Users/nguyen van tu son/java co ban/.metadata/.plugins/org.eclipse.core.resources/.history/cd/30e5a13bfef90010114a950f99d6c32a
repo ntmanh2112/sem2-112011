@@ -1,0 +1,25 @@
+import kethua.CaSau;
+import kethua.ConMeo;
+import kethua.ConNguoi;
+
+
+public class TestKeThua {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		ConNguoi cn = new ConNguoi();
+		cn.xuatThongTin();
+		
+		ConMeo cm = new ConMeo();
+		cm.xuatThongTin();
+		
+		CaSau cs = new CaSau();
+		cs.xuatThongTin();
+		
+
+	}
+
+}

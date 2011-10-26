@@ -1,0 +1,25 @@
+package nhanvien;
+
+import java.util.ArrayList;
+
+	public class Function {
+
+		// Neu co static o dau thi duoc su dung truc tiep, khong su dung tu khoa new
+	public static Designation desList[]; // mang tinh
+	public static ArrayList	empList; // mang dong
+		
+	public Function() {
+		this.desList = new Designation[3];
+		this.desList[0] = new Designation(0, "GL", "Group Leader", 12, 20);
+		this.desList[1] = new Designation(1, "PM", "Project Manager", 8, 12);
+		this.desList[2] = new Designation(2, "Dev", "Developer", 4, 8);
+			
+		this.empList = new ArrayList<Employee>();
+	}
+		
+	public void nhap() {
+		
+	}
+	}
+
+

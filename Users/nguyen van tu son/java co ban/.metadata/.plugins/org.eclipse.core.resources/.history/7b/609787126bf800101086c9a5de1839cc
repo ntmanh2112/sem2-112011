@@ -1,0 +1,14 @@
+import nhanvien.Employee;
+import nhanvien.Function;
+
+public class NhanVien {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Function.nhap();
+
+	}
+
+}

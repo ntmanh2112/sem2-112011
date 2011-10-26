@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+arch,sysinfo,,,"x86",1318300016453
+ws,sysinfo,,,"win32",1318300016453
+locale,sysinfo,,,"en_US",1318300016453
+processors,sysinfo,,,"2",1318300016453
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1318300016453
+java.runtime.version,sysinfo,,,"1.7.0-ea-b108",1318300016453
+java.specification.name,sysinfo,,,"Java Platform API Specification",1318300016453
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318300016453
+java.specification.version,sysinfo,,,"1.7",1318300016453
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1318300016453
+java.version,sysinfo,,,"1.7.0-ea",1318300016453
+java.vm.info,sysinfo,,,"mixed mode, sharing",1318300016453
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1318300016453
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1318300016453
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318300016453
+java.vm.specification.version,sysinfo,,,"1.0",1318300016453
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1318300016453
+java.vm.version,sysinfo,,,"19.0-b05",1318300016453
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1318300016484
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1318300016687
+started,bundle,org.eclipse.emf.ecore,2.5.0.v200906151043,"org.eclipse.emf.ecore",1318300017390
+started,bundle,org.eclipse.jem.util,2.0.200.v200905140200,"org.eclipse.jem.util",1318300017390
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1318300017390
+started,bundle,org.eclipse.jst.jsf.common,1.1.5.v20090505,"org.eclipse.jst.jsf.common",1318300017453
+started,bundle,org.eclipse.jst.jsf.core,1.2.0.v20090514,"org.eclipse.jst.jsf.core",1318300017484

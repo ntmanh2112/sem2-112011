@@ -1,0 +1,44 @@
+package nhanVien;
+
+import java.util.Scanner;
+
+public class Employee {
+	public int id = 0;
+	public String name = "";
+	public String birthday;
+	public int yearSaved = 0;
+	public Designation des;
+	public double salary = 0;
+	
+	public Employee() {
+		// TODO
+	}
+	public void nhap() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap vao id :");
+		this.id = sc.nextInt();
+		System.out.println("Nhap vao name :");
+		this.name = sc.nextLine();
+		System.out.println("Nhap vao birthday :");
+		this.birthday = sc.nextLine();
+		System.out.println("Nhap vao yearSaved :");
+		this.yearSaved = sc.nextInt();
+		
+		for (int i = 0; i<=Function.desList.length; i++) {
+			Function.desList[i].xuat();
+		}
+		
+		int choise = 0;
+		System.out.println("Ban hay chon chuc vu tuong ung:");
+		choise = sc.nextInt();
+		this.des = Function.desList[choise];
+		
+		System.out.println("Nhap vao salary :");
+		this.salary = sc.nextDouble();
+	}
+	
+}
+
+	
+	
+}

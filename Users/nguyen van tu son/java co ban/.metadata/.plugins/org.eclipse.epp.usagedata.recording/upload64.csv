@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1318354245531
+java.vm.version,sysinfo,,,"19.0-b05",1318354245531
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1318354245562
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1318354245562
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318354245562
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.0.v200906080500,"org.eclipse.jst.common.project.facet.core",1318354246031
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318354246265
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1318354249593
+started,bundle,org.eclipse.mylyn.java.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.java.ui",1318354278000
+started,bundle,org.eclipse.pde.api.tools,1.0.100.v20090526,"org.eclipse.pde.api.tools",1318354278156
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.100.v20090526,"org.eclipse.pde.api.tools.ui",1318354278171
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1318354279390
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318354308703
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318354311625
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318354315703
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318354345375
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1318354565421
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1318354568406
+started,bundle,org.eclipse.wst.server.core,1.1.101.v20090515,"org.eclipse.wst.server.core",1318354568750
+started,bundle,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui",1318354568859
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1318354569015
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1318354569359
+started,bundle,org.eclipse.birt.report.debug.ui,2.5.0.v20090603,"org.eclipse.birt.report.debug.ui",1318354569609
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.RunLast",1318354570812
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1318354573703

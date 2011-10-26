@@ -1,0 +1,22 @@
+package nhanVien;
+
+public class Designation {
+	public int desID = 0;
+	public String desName ="";
+	public String description = "";
+	public double minSalary = 0;
+	public double maxSalary = 0 ;
+	
+	public Designation() {
+		
+	}
+	// trong 1 doi tuong co nhieu ham dung nhung khac ca tham so truyen vao
+	public Designation(int _desID, String _desName, String _description, double _minSalary, double _maxSalary) 
+	public void nhap() {
+		
+	}
+	
+	public void xuat() {
+		
+	}
+}

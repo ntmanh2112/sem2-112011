@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.7.0-ea-b108",1319127331859
+java.specification.name,sysinfo,,,"Java Platform API Specification",1319127331859
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1319127331859
+java.specification.version,sysinfo,,,"1.7",1319127331859
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1319127331859
+java.version,sysinfo,,,"1.7.0-ea",1319127331859
+java.vm.info,sysinfo,,,"mixed mode, sharing",1319127331859
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1319127331859
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1319127331859
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1319127331859
+java.vm.specification.version,sysinfo,,,"1.0",1319127331859
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1319127331859
+java.vm.version,sysinfo,,,"19.0-b05",1319127331859
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.garbagecollector",1319127331968
+started,bundle,org.eclipse.equinox.p2.exemplarysetup,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.exemplarysetup",1319127331968
+started,bundle,org.eclipse.equinox.frameworkadmin,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin",1319127332140
+started,bundle,org.eclipse.equinox.frameworkadmin.equinox,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin.equinox",1319127332140
+started,bundle,org.eclipse.equinox.simpleconfigurator.manipulator,1.0.100.v20090520-1905,"org.eclipse.equinox.simpleconfigurator.manipulator",1319127332203
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.0.v20090520-1905,"org.eclipse.equinox.p2.updatechecker",1319127332265
+started,bundle,org.eclipse.team.cvs.ui,3.3.200.I20090521-1750,"org.eclipse.team.cvs.ui",1319127332375
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.scheduler",1319127332390
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1319127332562
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1319127332671
+started,bundle,org.eclipse.emf.ecore,2.5.0.v200906151043,"org.eclipse.emf.ecore",1319127333406
+started,bundle,org.eclipse.jem.util,2.0.200.v200905140200,"org.eclipse.jem.util",1319127333406

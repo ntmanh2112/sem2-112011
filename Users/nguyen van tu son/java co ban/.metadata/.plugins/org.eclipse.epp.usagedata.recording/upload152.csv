@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.emf.common.ui,2.5.0.v200906151043,"org.eclipse.emf.common.ui",1318997396250
+started,bundle,org.eclipse.emf.edit.ui,2.5.0.v200906151043,"org.eclipse.emf.edit.ui",1318997396250
+started,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.300.v200902052230,"org.eclipse.jst.j2ee.webservice.ui",1318997396281
+started,bundle,org.eclipse.jst.j2ee.webservice,1.1.300.v200901220600,"org.eclipse.jst.j2ee.webservice",1318997396359
+started,bundle,org.eclipse.jst.jee.ui,1.0.200.v200905242144,"org.eclipse.jst.jee.ui",1318997396484
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.300.v200905132034,"org.eclipse.jst.j2ee.ui",1318997396625
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.300.v200903120000,"org.eclipse.jst.j2ee.navigator.ui",1318997396656
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997399312
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997401468
+error,log,,,"Unhandled event loop exception",1318997401562
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997401609
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997403687
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1318997407812
+error,log,,,"Unhandled event loop exception",1318997407828
+opened,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.AllMarkersView",1318997409203
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1318997411312
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997411343
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997412296
+error,log,,,"Unhandled event loop exception",1318997413140
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1318997414640
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997414656
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997416765
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997416781
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318997416812
+error,log,,,"Unhandled event loop exception",1318997416812
