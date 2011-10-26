@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0_26-b03",1318214067764
+java.specification.name,sysinfo,,,"Java Platform API Specification",1318214067764
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318214067764
+java.specification.version,sysinfo,,,"1.6",1318214067764
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1318214067764
+java.version,sysinfo,,,"1.6.0_26",1318214067764
+java.vm.info,sysinfo,,,"mixed mode, sharing",1318214067764
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1318214067764
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1318214067764
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318214067764
+java.vm.specification.version,sysinfo,,,"1.0",1318214067764
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1318214067764
+java.vm.version,sysinfo,,,"20.1-b02",1318214067764
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1318214069710
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1318214073411
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318214075930
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318214091430
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1318214091556
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1318214091592
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318214096573
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318214125731
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1318214134324
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1318214135264
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1318214150532
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318214153979

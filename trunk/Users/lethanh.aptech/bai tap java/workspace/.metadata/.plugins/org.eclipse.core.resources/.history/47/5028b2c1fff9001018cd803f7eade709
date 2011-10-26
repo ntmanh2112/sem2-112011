@@ -1,0 +1,27 @@
+package kethua;
+
+public class SinhVien extends ConNguoi {
+	//1.thuoc tinh
+	public double diemTB ;
+	//2.phuong thuc
+	public SinhVien() {
+		this.ten = "Sinh Vien";
+		this.chieuCao = 1600 ;
+		this.canNang = 80 ;
+		this.soDienThoai = "0909090909";
+		this.email = "lethanhaptech@gmail.com";
+		this.diemTB = 5 ;
+		//this.xuatThongTin();
+		
+		
+	}
+	public void xuatThongTin() {
+		System.out.println("******** Sinh Vien ********" );
+		System.out.println("ten: " + this.ten );
+		System.out.println("Chieu Cao: " + this.chieuCao );
+		System.out.println("Can Nang: " + this.canNang );
+		System.out.println("So dien Thoai: " + this.soDienThoai );
+		System.out.println("Email: " + this.email);
+		System.out.println("Diem Trung Binh: " + this.diemTB);
+	}
+}

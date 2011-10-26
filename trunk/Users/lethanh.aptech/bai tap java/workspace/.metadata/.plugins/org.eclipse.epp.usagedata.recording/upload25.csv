@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0_26-b03",1317952239324
+java.specification.name,sysinfo,,,"Java Platform API Specification",1317952239324
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1317952239324
+java.specification.version,sysinfo,,,"1.6",1317952239324
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1317952239324
+java.version,sysinfo,,,"1.6.0_26",1317952239324
+java.vm.info,sysinfo,,,"mixed mode, sharing",1317952239324
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1317952239324
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1317952239324
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1317952239324
+java.vm.specification.version,sysinfo,,,"1.0",1317952239324
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1317952239324
+java.vm.version,sysinfo,,,"20.1-b02",1317952239324
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1317952249745
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1317952322894
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1317952606569
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.100.v200809240707,"org.eclipse.wst.jsdt.manipulation",1317952611124
+started,bundle,org.eclipse.wst.jsdt.core,1.0.200.v200905201910,"org.eclipse.wst.jsdt.core",1317952611483
+started,bundle,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui",1317952611639
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1317952686176
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1317952692587
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1317952715114
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1317952726361
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1317952726704
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1317952728498

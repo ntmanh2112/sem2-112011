@@ -1,0 +1,12 @@
+package thread;
+
+public class textThread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

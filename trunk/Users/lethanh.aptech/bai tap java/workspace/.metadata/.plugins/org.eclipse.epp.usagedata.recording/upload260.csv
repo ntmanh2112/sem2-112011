@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+processors,sysinfo,,,"4",1319337022165
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1319337022165
+java.runtime.version,sysinfo,,,"1.6.0_26-b03",1319337022165
+java.specification.name,sysinfo,,,"Java Platform API Specification",1319337022165
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1319337022165
+java.specification.version,sysinfo,,,"1.6",1319337022165
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1319337022165
+java.version,sysinfo,,,"1.6.0_26",1319337022165
+java.vm.info,sysinfo,,,"mixed mode, sharing",1319337022165
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1319337022165
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1319337022165
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1319337022165
+java.vm.specification.version,sysinfo,,,"1.0",1319337022165
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1319337022165
+java.vm.version,sysinfo,,,"20.1-b02",1319337022165
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1319337022248
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1319337022667
+started,bundle,org.eclipse.emf.ecore,2.5.0.v200906151043,"org.eclipse.emf.ecore",1319337022913
+started,bundle,org.eclipse.jem.util,2.0.200.v200905140200,"org.eclipse.jem.util",1319337022915
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1319337022917
+started,bundle,org.eclipse.jst.jsf.common,1.1.5.v20090505,"org.eclipse.jst.jsf.common",1319337022962
+started,bundle,org.eclipse.jst.jsf.core,1.2.0.v20090514,"org.eclipse.jst.jsf.core",1319337023031
+started,bundle,org.eclipse.mylyn.commons.net,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.commons.net",1319337023263
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.0.v200906080500,"org.eclipse.jst.common.project.facet.core",1319337023353
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.commons.ui",1319337023593

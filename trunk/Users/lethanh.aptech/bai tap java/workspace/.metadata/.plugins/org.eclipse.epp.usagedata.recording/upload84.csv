@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1318215204885
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1318215209638
+executed,command,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui.localJavaShortcut.debug",1318215212583
+activated,perspective,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.DebugPerspective",1318215213103
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1318215213127
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepOver",1318215217076
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepInto",1318215222570
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1318215226245
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepOver",1318215233597
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepInto",1318215236995
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepInto",1318215243233
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepOver",1318215245056
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepInto",1318215253123
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepOver",1318215254528
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepOver",1318215259863
+no handler,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy",1318215261138
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepInto",1318215262118
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepInto",1318215265702
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepOver",1318215266683
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318215269228
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318215271847
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318215274331
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1318215284717
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepInto",1318215291370
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.StepOver",1318215295435
