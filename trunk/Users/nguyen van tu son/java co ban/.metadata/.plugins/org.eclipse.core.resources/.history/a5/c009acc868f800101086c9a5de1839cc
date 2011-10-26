@@ -1,0 +1,53 @@
+package nhanvien;
+
+import java.util.Date;
+import java.util.Scanner;
+
+
+public class Employee {
+	public int id = 0;
+	public String name = "";
+	public String birthday;
+	public int yearSaved = 0;
+	public Designation des;
+	public double salary = 0;
+	
+	public Employee() {
+		// TODO
+	}
+	public void nhap() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap vao id :");
+		this.id = sc.nextInt();
+		System.out.println("Nhap vao name :");
+		this.name = sc.nextLine();
+		System.out.println("Nhap vao birthday :");
+		this.birthday = sc.nextLine();
+		System.out.println("Nhap vao yearSaved :");
+		this.yearSaved = sc.nextInt();
+		
+		for(int i = 0; i<=Function.desList.length; i++) {
+			Function.desList[i].xuat();
+		}
+		
+		int choise = 0;
+		System.out.println("Ban hay chon chuc vu tuong ung voi ID:");
+		choise = sc.nextInt();
+		this.des = Function.desList[choise - 1];
+		
+		System.out.println("Nhap vao salary :");
+		this.salary = sc.nextDouble();
+	}
+	 public void xuat() {
+		 System.out.print("************************");
+		 System.out.print("Thong tin chi tiet cua nhan vien nay la:");
+		 System.out.print("id:" +this.id + "--name:" + this.name + "--brithday:" + this.birthday
+				 + "--");
+		 this.des.xuat();
+		 System.out.print("*********--*********");
+	 }
+}
+
+	
+	
+

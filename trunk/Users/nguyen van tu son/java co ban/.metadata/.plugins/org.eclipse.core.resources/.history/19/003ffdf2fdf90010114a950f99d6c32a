@@ -1,0 +1,22 @@
+package kethua;
+
+public class ConMeo extends DongVat {
+	// thuoc tinh
+	public String mauLong;
+	
+	// phuong thuc
+	public ConMeo() {
+		this.ten = "Con Meo";
+		this.chieuCao = 30;
+		this.canNang = 3;
+		
+		this.xuatThongTin();
+	}
+	
+	public void xuatThongTin() {
+		System.out.println("********* CON MEO *********");
+		System.out.println("Ten: " + this.ten);
+		System.out.println("Chieu Cao: " + this.chieuCao);
+		System.out.println("Can Nang: " + this.canNang);
+	}
+}

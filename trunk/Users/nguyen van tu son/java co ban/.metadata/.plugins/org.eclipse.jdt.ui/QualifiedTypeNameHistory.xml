@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="TamGiac.TamGiac"/>
+<fullyQualifiedTypeName name="NhanVien"/>
+<fullyQualifiedTypeName name="nhanvien.Employee"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="nhanVien.Function"/>
+<fullyQualifiedTypeName name="nhanVien.Employee"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="kethua.DongVat"/>
+<fullyQualifiedTypeName name="kethua.ConNguoi"/>
+<fullyQualifiedTypeName name="kethua.ConMeo"/>
+<fullyQualifiedTypeName name="kethua.CaSau"/>
+<fullyQualifiedTypeName name="kethua.NhanVien"/>
+<fullyQualifiedTypeName name="kethua.SinhVien"/>
+<fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+<fullyQualifiedTypeName name="Thread.ThreadA"/>
+<fullyQualifiedTypeName name="Thread.ThreadB"/>
+</qualifiedTypeNameHistroy>

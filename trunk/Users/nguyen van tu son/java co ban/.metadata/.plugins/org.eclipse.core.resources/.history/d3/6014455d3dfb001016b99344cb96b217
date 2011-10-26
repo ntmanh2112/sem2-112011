@@ -1,0 +1,36 @@
+import kethua.CaSau;
+import kethua.ConMeo;
+import kethua.ConNguoi;
+import kethua.DongVat;
+import kethua.NhanVien;
+import kethua.SinhVien;
+
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 DongVat dv = new DongVat();
+		 dv.xuatThongTin();
+		 
+		 ConMeo cm = new ConMeo();
+		 cm.xuatThongTin();
+		 
+		 CaSau cs = new CaSau();
+		 cs.xuatThongTin();
+		 
+		 ConNguoi cn = new ConNguoi();
+		 cn.xuatThongTin();
+		 
+		 NhanVien nv = new NhanVien();
+		 nv.xuatThongTin();
+		 
+		 SinhVien sv = new SinhVien();
+		 sv.xuatThongTin();
+		 
+	}
+
+}

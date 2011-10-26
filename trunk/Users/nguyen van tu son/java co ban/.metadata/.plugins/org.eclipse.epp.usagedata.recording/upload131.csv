@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.pde.ui,3.5.0.v20090528,"org.eclipse.pde.ui",1318986761671
+started,bundle,org.eclipse.search,3.5.0.v20090526-2000,"org.eclipse.search",1318986761687
+started,bundle,org.eclipse.team.core,3.5.0.I20090527-0620,"org.eclipse.team.core",1318986761687
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1318986761734
+started,bundle,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui",1318986761750
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1318986761765
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1318986761765
+started,bundle,org.eclipse.ui.forms,3.4.0.v20090526,"org.eclipse.ui.forms",1318986761765
+started,bundle,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.ide",1318986761812
+started,bundle,org.eclipse.ui.net,1.2.0.I20090430-0408,"org.eclipse.ui.net",1318986761812
+started,bundle,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views",1318986761812
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.ui.views.log",1318986761812
+started,bundle,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"org.eclipse.ui.workbench",1318986761812
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1318986761875
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1318986761875
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.0.v200906080535,"org.eclipse.wst.common.project.facet.core",1318986761875
+os,sysinfo,,,"win32",1318986761890
+arch,sysinfo,,,"x86",1318986761890
+ws,sysinfo,,,"win32",1318986761890
+locale,sysinfo,,,"en_US",1318986761890
+processors,sysinfo,,,"2",1318986761890
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1318986761890
+java.runtime.version,sysinfo,,,"1.7.0-ea-b108",1318986761890
+java.specification.name,sysinfo,,,"Java Platform API Specification",1318986761890
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1318986761890

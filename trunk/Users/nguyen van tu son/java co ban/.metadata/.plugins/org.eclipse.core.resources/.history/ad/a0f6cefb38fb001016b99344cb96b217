@@ -1,0 +1,13 @@
+package kethua;
+
+public class CaSau extends DongVat {
+	public String mauDa;
+	
+	public CaSau() {
+		this.ten = "Ca Sau";
+		this.chieuCao = 50;
+		this.canNang = 500;
+		this.mauDa = "Nau";
+	}
+	
+}

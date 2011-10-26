@@ -1,0 +1,16 @@
+
+public class Employee {
+	public int iD;
+	public String name = "";
+	public String brithday;
+	public int yearServed;
+	public Designation des;
+	public double salary;
+	
+	public Employee() {
+		
+	}
+	
+	
+	
+}

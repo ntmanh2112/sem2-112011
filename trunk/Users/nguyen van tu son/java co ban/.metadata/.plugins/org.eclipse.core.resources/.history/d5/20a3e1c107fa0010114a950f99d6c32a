@@ -1,0 +1,41 @@
+import kethua.CaSau;
+import kethua.ConMeo;
+import kethua.ConNguoi;
+import kethua.NhanVien;
+import kethua.SinhVien;
+
+
+public class TestKeThua {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		ConNguoi cn = new ConNguoi();
+		cn.xuatThongTin();
+		cn.chay();
+		cn.an();
+		cn.ngu();
+		
+		ConMeo cm = new ConMeo();
+		cm.xuatThongTin();
+		cm.chay();
+		cm.an();
+		cm.ngu();
+		
+		CaSau cs = new CaSau();
+		cs.xuatThongTin();
+		cs.chay();
+		cs.an();
+		cs.ngu();
+		
+		SinhVien sv = new SinhVien();
+		sv.xuatThongTin();
+		
+		NhanVien nv = new NhanVien();
+		nv.xuatThongTin();
+
+	}
+
+}

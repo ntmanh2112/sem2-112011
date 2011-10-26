@@ -1,0 +1,25 @@
+import Thread.ThreadA;
+import Thread.ThreadB;
+
+
+public class TestThread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThreadA threada = new ThreadA();
+		threada.setName("Tien Trinh A");
+		
+		ThreadB b = new ThreadB();
+		Thread threadb = new Thread(b);
+		threadb.setName("Tien Trinh B");
+		
+		threada.start();
+		threadb.start();
+		
+		
+	}
+
+}
