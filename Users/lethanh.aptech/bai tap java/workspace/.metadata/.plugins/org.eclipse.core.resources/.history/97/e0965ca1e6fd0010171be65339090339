@@ -1,0 +1,31 @@
+package io;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class TextIO {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		readFile();
+	}
+	public static void readFile() {
+		try {
+			FileReader fr = new FileReader("D:/data.txt");
+			BufferedReader br = new BufferedReader(fr);
+			String line = "/n";
+			while ((line = br.readLine()) != null ) {
+				System.out.println(line);
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
