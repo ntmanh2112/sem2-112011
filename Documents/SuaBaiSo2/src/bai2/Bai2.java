@@ -23,7 +23,7 @@ public class Bai2 {
 	public static void readFile() {
 		listEmployee = new ArrayList<Employee>();
 		try {
-			FileReader fr = new FileReader("Employee.txt");
+			FileReader fr = new FileReader("D:/Employee.txt");
 			BufferedReader br = new BufferedReader(fr);
 			String line = "";
 			while ((line = br.readLine()) != null) {
