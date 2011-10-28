@@ -1,0 +1,9 @@
+﻿QUY TRÌNH THỰC HIỆN EPROJECT
+1. Đọc/dịch requirement (docx) => project plan (ms project)
+2. Thiết kế use case diagram (visio)
+3. Phân tích database (design4Db => SQL Server 2005)
+4. Thiết kế layout, sitemap (Eclipse/Netbean, Visio)
+5. Thiết kế class diagram, data Flow diagram (Visio)
+6. Coding 2 Unit testing (Eclipse/Netbean + SQL Server 2005)
+7. Intergration test
+8. Viết hướng dẫn sử dụng
