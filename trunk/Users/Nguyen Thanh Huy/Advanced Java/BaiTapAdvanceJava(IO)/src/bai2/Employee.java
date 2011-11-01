@@ -1,5 +1,7 @@
 package bai2;
 
+import java.util.Scanner;
+
 public class Employee {
 	public int id;
 	public String name;
@@ -16,6 +18,20 @@ public class Employee {
 		this.age = age;
 		this.company = company;
 		this.salary = salary;
+	}
+	
+	//public enter
+	public void enter() {
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("ID: ");
+		this.id = s.nextInt();
+		System.out.println("Name: ");
+		this.name = s.nextLine();
+		System.out.println("Age: ");
+		this.age = s.nextInt();
+		System.out.println("Company: ");
+		this.company = s.nextLine();
 	}
 	
 	public void display() {
