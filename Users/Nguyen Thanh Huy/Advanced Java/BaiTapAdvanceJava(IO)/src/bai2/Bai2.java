@@ -42,6 +42,7 @@ public class Bai2 {
 				emp.salary = Double.parseDouble(arr[4]);
 				
 				listEmp.add(emp);
+				br.close();
 			}			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
