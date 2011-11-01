@@ -52,7 +52,7 @@ public class MySimpleNotepad extends JFrame implements ActionListener {
 	private String selFile = "";
 
 	public MySimpleNotepad() {
-		super("tungit07@gmail.com");
+		super("thanhhuynew@gmail.com");
 		setSize(600, 600);
 		setBounds(350, 100, 700, 500);
 		this.setIconImage(new ImageIcon("tungit07.ico").getImage());
@@ -158,7 +158,7 @@ public class MySimpleNotepad extends JFrame implements ActionListener {
 	private void createGUI() {
 		tpContent = new JTextPane();
 		tpContent
-				.setText("-----------------------tungit07@gmail.com--------------------");
+				.setText("");
 
 		this.add(new JScrollPane(tpContent), BorderLayout.CENTER);
 		lblStatus = new JLabel("Ready");
