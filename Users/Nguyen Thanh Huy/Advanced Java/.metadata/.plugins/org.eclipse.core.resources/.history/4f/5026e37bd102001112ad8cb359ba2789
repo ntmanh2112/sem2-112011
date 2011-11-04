@@ -1,0 +1,54 @@
+package bai3;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import bai2.Employee;
+
+public class Bai3 {
+	ArrayList<Employee> listEmp;
+	
+	public Bai3() {
+		listEmp = new ArrayList<Employee>();
+	}
+	
+	//doc thong tin cua cac nhan vien tu file va dua vao danh sach nhan vien
+	public void readData(String fileName) {
+		FileReader fr;
+		BufferedReader br;
+		try {
+			fr = new FileReader(fileName);
+			br = new BufferedReader(fr);
+			
+			String line = "";
+			while ((line = br.readLine()) != null) {
+				String[] a = line.split("\t");
+				
+				Employee e = new Employee();
+				e.id = Integer.parseInt(a[0]);
+				e.name = a[1];
+				e.age = Integer.parseInt(a[2]);
+				e.company = a[3];
+				e.salary = Double.parseDouble(a[4]);
+				
+				listEmp.add(e);
+			}
+			
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				fr.close();
+			}
+		}
+	}
+}
