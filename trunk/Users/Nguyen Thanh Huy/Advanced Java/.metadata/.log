@@ -1,0 +1,35 @@
+!SESSION 2011-10-28 09:38:01.423 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Server\GOOGLE CODE\JAVA\APTECH-JAVA-SEM2-THAY-THIEN\Users\Nguyen Thanh Huy\Advanced Java
+
+!ENTRY org.eclipse.jdt.debug 4 125 2011-10-28 12:42:09.091
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+com.sun.jdi.VMDisconnectedException: Got IOException from Virtual Machine
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendPacket(PacketSendManager.java:80)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:173)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.request.EventRequestImpl.disable(EventRequestImpl.java:199)
+	at org.eclipse.jdi.internal.request.EventRequestManagerImpl.deleteEventRequest(EventRequestManagerImpl.java:376)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread$StepHandler.deleteStepRequest(JDIThread.java:2126)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread$StepHandler.stepEnd(JDIThread.java:2290)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread$StepHandler.invokeThread(JDIThread.java:2020)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread$StepHandler.step(JDIThread.java:1995)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.stepOver(JDIThread.java:1412)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.stepOver(JDIStackFrame.java:418)
+	at org.eclipse.debug.internal.core.commands.StepOverCommand.step(StepOverCommand.java:27)
+	at org.eclipse.debug.internal.core.commands.StepCommand.doExecute(StepCommand.java:34)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:213)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2011-11-02 23:08:39.316 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-11-02 23:08:45.623
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

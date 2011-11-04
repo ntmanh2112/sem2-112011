@@ -1,0 +1,72 @@
+package bai3;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import bai2.Employee;
+
+public class Bai3 {
+	ArrayList<Employee> listEmp;
+	
+	public Bai3() {
+		listEmp = new ArrayList<Employee>();
+	}
+	
+	//doc thong tin cua cac nhan vien tu file va dua vao danh sach nhan vien
+	public void readData(String fileName) {
+		try {
+			FileReader fr = new FileReader(fileName);
+			BufferedReader br = new BufferedReader(fr);
+			
+			String line = "";
+			while ((line = br.readLine()) != null) {
+				String[] a = line.split("\t");
+				
+				Employee e = new Employee();
+				e.id = Integer.parseInt(a[0]);
+				e.name = a[1];
+				e.age = Integer.parseInt(a[2]);
+				e.company = a[3];
+				e.salary = Double.parseDouble(a[4]);
+				
+				listEmp.add(e);
+				br.close();
+			}
+			
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	//them nhan vien
+	public void addEmployee() {
+		Scanner s = new Scanner(System.in);
+		Employee e = new Employee();
+		e.enter();
+		if (checkExist(e.id)) {
+			FileWriter fw = new FileWriter("Employee.txt");
+		}
+	}
+	
+	public boolean checkExist(int id) {
+		boolean status = false;
+		for (Employee e: listEmp) {
+			if (id == e.id) {
+				status =  true;
+			}
+			else {
+				status =  false;
+			}
+		}
+		return status;
+	}
+}

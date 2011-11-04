@@ -1,0 +1,42 @@
+package bai2;
+
+import java.util.Scanner;
+
+public class Employee {
+	public int id;
+	public String name;
+	public int age;
+	public String company;
+	public double salary;
+	
+	public Employee() {
+	}
+	
+	public Employee(int id, String name, int age, String company, double salary) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.company = company;
+		this.salary = salary;
+	}
+	
+	//public enter
+	public void enter() {
+		Scanner s = new Scanner(System.in);
+		System.out.println("ID: ");
+		this.id = s.nextInt();
+		System.out.println("Name: ");
+		this.name = s.nextLine();
+		System.out.println("Age: ");
+		this.age = s.nextInt();
+	}
+	
+	public void display() {
+		System.out.println("ID: " + this.id);
+		System.out.println("Name: " + this.name);
+		System.out.println("Age: " + this.age);
+		System.out.println("Company: " + this.company);
+		System.out.println("Salary: " + this.salary);
+	}
+
+}

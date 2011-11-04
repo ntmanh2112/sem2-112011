@@ -1,0 +1,10 @@
+package bai2;
+
+public class Employee {
+	public int id;
+	public String name;
+	public int age;
+	public String company;
+	public salary;
+
+}

@@ -1,0 +1,100 @@
+/*
+ * Bai 1: Cho file Employee.txt có cấu trúc sau:
+ * Viết chương trình đọc FILE trên, sau đó display tất cả kết quả đọc được lên màn hình.
+ */
+package read;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ReadData {
+	public static void main(String[] args) {
+		bai1();
+	}
+	public static void bai1() {
+		Scanner s = new Scanner(System.in);
+		String fileName;
+		FileReader fr;
+		BufferedReader br;
+		
+		System.out.println("Nhap file can doc: ");
+		fileName = s.nextLine();
+		
+		try {
+			fr = new FileReader(fileName);
+			br = new BufferedReader(fr);
+			
+			String line = "";
+			while ((line = br.readLine()) != null) {
+				System.out.println(line);
+			}
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	public static void bai2() {
+		ArrayList ds = new ArrayList();
+		Scanner s = new Scanner(System.in);
+		FileReader fr;
+		try {
+			fr = new FileReader("Employee.txt");
+			BufferedReader br = new BufferedReader(fr);
+			
+			String line = "";
+			while ((line = br.readLine()) != null) {
+				
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static void bai3() {
+		int id;
+		String name;
+		int age;
+		String company;
+		double salary;
+		Scanner s = new Scanner(System.in);
+		
+		String fileName = null;
+		FileWriter fw;
+		BufferedWriter bw;
+		
+		try {
+			System.out.println("ID: ");
+			id = s.nextInt();
+			System.out.println("Name: ");
+			name = s.nextLine();
+			System.out.println("Company: ");
+			company = s.nextLine();
+			System.out.println("Salary: ");
+			salary = s.nextDouble();
+			
+			System.out.println("Nhap ten file can ghi: ");
+			fileName = s.nextLine();
+			
+			fw = new FileWriter(fileName);
+			bw = new BufferedWriter(fw);
+			
+			bw.write(id);
+			bw.write("\t");
+			bw.write(name);
+			bw.write(company);
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}
