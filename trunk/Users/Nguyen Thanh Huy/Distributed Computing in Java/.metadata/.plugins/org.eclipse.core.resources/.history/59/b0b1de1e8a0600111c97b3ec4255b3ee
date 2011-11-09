@@ -1,0 +1,12 @@
+package view;
+
+import javax.swing.JFrame;
+import javax.swing.JTable;
+
+public class Components extends JFrame {
+	
+	String[] col = {"STT", "Ngay Nhan", "Ngay Tra"};
+	String[][] data = {};
+	JTable jTable = new JTable();
+
+}
