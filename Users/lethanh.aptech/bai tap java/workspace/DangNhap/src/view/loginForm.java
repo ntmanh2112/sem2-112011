@@ -17,7 +17,7 @@ import javax.swing.JTextField;
 
 public class loginForm extends JFrame {
 	
-	private JTextField tfuser;
+	//private JTextField tfuser;
 	private JTextField txtUserName;
 	private JPasswordField pf;
 	
@@ -90,13 +90,15 @@ public class loginForm extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
 				String userName = txtUserName.getText();
-				JOptionPane.showMessageDialog(null, txtUserName.getText());
+				//JOptionPane.showMessageDialog(null, txtUserName.getText());
 				String password = pf.getText();
-				if (userName.equals("admin")
-						&& password.equals("admin")) {
+				if (userName == "admin" || password == "admin") {
 					JOptionPane.showMessageDialog(null, "Dang Nhap Thanh Cong");
+					System.out.println(userName + "success");
 				}else {
 					JOptionPane.showMessageDialog(null, "Khong phai Admin");
+
+					System.out.println(userName + "fail");
 				}
 			}
 		});
