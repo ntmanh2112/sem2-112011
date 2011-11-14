@@ -1,6 +1,8 @@
 package view;
 
 import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -22,7 +24,13 @@ public class Home extends JFrame{
 		this.setSize(450, 300);
 		this.setTitle("Welcome to Login From");
 		this.setLayout(null);
+		this.setBackground("white");
 		Container c = this.getContentPane();
+		
+		Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
+		int x = (int) (d.getWidth()- 450)/2;
+		int y = (int) (d.getHeight()- 300)/2;
+		this.setLocation(x,y);
 		
 		//tao menu
 		JMenuBar menubar = new JMenuBar();
@@ -61,12 +69,20 @@ public class Home extends JFrame{
 		JMenuItem jpause = new JMenuItem("Pause");
 		ImageIcon impause = new ImageIcon("images/pause.gif");
 		jpause.setIcon(impause);
-		
+		//menu funtion
+		JMenu funtion = new JMenu("Funtion");
+		JMenuItem funtionbai11 = new JMenuItem("bai 1.1");
+		JMenuItem funtionbai12 = new JMenuItem("bai 1.2");
+		JMenuItem funtionbai13 = new JMenuItem("bai 1.3");
+		JMenuItem funtionbai14 = new JMenuItem("bai 1.4");
+		JMenuItem funtionbai15 = new JMenuItem("bai 1.5");
+		JMenuItem funtionbai16 = new JMenuItem("bai 1.6");
 		//menu help
 		JMenu help = new JMenu("Help");
 		
 		menubar.add(file);
 		menubar.add(action);
+		menubar.add(funtion);
 		menubar.add(help);
 		
 		file.add(jnew);
@@ -76,7 +92,17 @@ public class Home extends JFrame{
 		file.add(jexit);
 		action.add(jstart);
 		action.add(jpause);
+		funtion.add(funtionbai11);
+		funtion.add(funtionbai12);
+		funtion.add(funtionbai13);
+		funtion.add(funtionbai14);
+		funtion.add(funtionbai15);
+		funtion.add(funtionbai16);
 		this.setJMenuBar(menubar);
 		this.setVisible(true);
 }
+	private void setBackground(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }
