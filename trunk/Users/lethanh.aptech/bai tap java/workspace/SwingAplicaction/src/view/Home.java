@@ -9,6 +9,7 @@ import java.awt.event.ActionListener;
 import javax.management.JMException;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
@@ -21,16 +22,24 @@ public class Home extends JFrame{
 		khoiTao() ;
 	}
 	public void khoiTao () {
-		this.setSize(450, 300);
+		this.setSize(650, 400);
 		this.setTitle("Welcome to Login From");
 		this.setLayout(null);
 		this.setBackground("white");
 		Container c = this.getContentPane();
 		
 		Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
-		int x = (int) (d.getWidth()- 450)/2;
-		int y = (int) (d.getHeight()- 300)/2;
+		int x = (int) (d.getWidth()- 650)/2;
+		int y = (int) (d.getHeight()- 400)/2;
 		this.setLocation(x,y);
+		
+		JLabel lbimage = new JLabel();
+		ImageIcon im = new ImageIcon("images/wellcome.jpg");
+		lbimage.setIcon(im);
+		lbimage.setSize(650, 400);
+		lbimage.setLocation(0, 0);
+		
+		c.add(lbimage);
 		
 		//tao menu
 		JMenuBar menubar = new JMenuBar();
@@ -72,11 +81,51 @@ public class Home extends JFrame{
 		//menu funtion
 		JMenu funtion = new JMenu("Funtion");
 		JMenuItem funtionbai11 = new JMenuItem("bai 1.1");
+		funtionbai11.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				new LuaChonDangNhap();
+			}
+		});
 		JMenuItem funtionbai12 = new JMenuItem("bai 1.2");
+		funtionbai12.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				new DangNhapMayChu();
+			}
+		});
 		JMenuItem funtionbai13 = new JMenuItem("bai 1.3");
+		funtionbai13.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				new CapNhatThuoc();
+			}
+		});
 		JMenuItem funtionbai14 = new JMenuItem("bai 1.4");
+		funtionbai14.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				new thongKeGiaoDich();
+			}
+		});
 		JMenuItem funtionbai15 = new JMenuItem("bai 1.5");
-		JMenuItem funtionbai16 = new JMenuItem("bai 1.6");
+		funtionbai15.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				new hoaDonBanHang();
+			}
+		});
+		
 		//menu help
 		JMenu help = new JMenu("Help");
 		
@@ -97,7 +146,7 @@ public class Home extends JFrame{
 		funtion.add(funtionbai13);
 		funtion.add(funtionbai14);
 		funtion.add(funtionbai15);
-		funtion.add(funtionbai16);
+		
 		this.setJMenuBar(menubar);
 		this.setVisible(true);
 }
