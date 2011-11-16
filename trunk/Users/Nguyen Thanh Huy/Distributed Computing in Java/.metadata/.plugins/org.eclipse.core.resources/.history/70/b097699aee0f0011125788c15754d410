@@ -1,0 +1,13 @@
+package layout;
+
+import javax.swing.JPanel;
+
+public class DemoGridLayout extends JPanel {
+	public DemoGridLayout() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void initComponents() {
+		
+	}
+}

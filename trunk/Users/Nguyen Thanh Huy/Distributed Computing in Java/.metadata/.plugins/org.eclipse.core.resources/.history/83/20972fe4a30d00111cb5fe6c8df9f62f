@@ -1,0 +1,52 @@
+package view;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+public class Home extends JFrame {
+	JMenuBar jMenuBar;
+	
+	JMenu menuFile;
+	JMenuItem itemExit;
+	
+	JMenu menuFunction;
+	JMenuItem itemChooseLogin, itemLoginToServer, itemLogManagement, itemupdatePharmacy;
+	
+	public Home() {
+		initComponents();
+	}
+
+	private void initComponents() {
+		Container c = this.getContentPane();
+		this.setSize(600, 600);
+		this.setLayout(null);
+		
+		jMenuBar = new JMenuBar();
+		
+		//FILE
+		menuFile = new JMenu("File");
+		
+		itemExit = new JMenuItem("Exit");
+		menuFile.add(itemExit);
+		
+		jMenuBar.add(menuFile);
+		
+		//FUNCTION
+		menuFunction = new JMenu("Function");
+		
+		itemChooseLogin = new JMenuItem("Choose Login");
+		itemLoginToServer = new JMenuItem("Login to server");
+		itemLogManagement = new JMenuItem("Log management");
+		itemupdatePharmacy = new JMenuItem("Update Pharmacy");
+		
+		
+		
+		this.setJMenuBar(jMenuBar);
+		this.setVisible(true);
+	}
+
+}

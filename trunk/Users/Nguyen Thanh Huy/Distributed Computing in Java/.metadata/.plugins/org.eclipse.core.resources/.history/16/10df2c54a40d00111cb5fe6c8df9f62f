@@ -1,0 +1,11 @@
+package controller;
+
+import view.Home;
+import view._11ChooseLogin;
+import view._12LoginToServer;
+
+public class Action {
+	Home home;
+	_11ChooseLogin chooseLogin;
+	_12LoginToServer loginToServer;
+}

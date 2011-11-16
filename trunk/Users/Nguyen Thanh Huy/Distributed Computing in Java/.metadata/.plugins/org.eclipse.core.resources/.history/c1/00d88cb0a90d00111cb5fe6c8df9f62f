@@ -1,0 +1,63 @@
+package controller;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import view.Home;
+import view._11ChooseLogin;
+import view._12LoginToServer;
+import view._13LogManagement;
+import view._14UpdatePharmacy;
+
+public class Action implements ActionListener {
+	Home home;
+	
+	_11ChooseLogin chooseLogin;
+	_12LoginToServer loginToServer;
+	_13LogManagement logManagement;
+	_14UpdatePharmacy updatePharmacy;
+	
+	public Action(Home _home) {
+		this.home = _home;
+	}
+	
+	public Action(_11ChooseLogin _chooseLogin) {
+		this.chooseLogin = _chooseLogin;
+	}
+	
+	public Action(_12LoginToServer _loginToServer) {
+		this.loginToServer = _loginToServer;
+	}
+	
+	public Action(_13LogManagement _logManagement) {
+		this.logManagement = _logManagement;
+	}
+	
+	public Action(_14UpdatePharmacy _updatePharmacy) {
+		this.updatePharmacy = _updatePharmacy;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if (e.getSource().equals(home.itemExit)) {
+			System.exit(1);
+		}
+		else if (e.getSource().equals(home.itemChooseLogin)) {
+			chooseLogin = new _11ChooseLogin();
+			if (e.getSource().equals(chooseLogin.btnConnect)) {
+				
+			}
+		}
+		else if (e.getSource().equals(home.itemLoginToServer)) {
+			new _12LoginToServer();
+		}
+		else if (e.getSource().equals(home.itemLogManagement)) {
+			new _13LogManagement();
+		}
+		else if (e.getSource().equals(home.itemupdatePharmacy)) {
+			new _14UpdatePharmacy();
+		}
+	}
+	
+	
+}

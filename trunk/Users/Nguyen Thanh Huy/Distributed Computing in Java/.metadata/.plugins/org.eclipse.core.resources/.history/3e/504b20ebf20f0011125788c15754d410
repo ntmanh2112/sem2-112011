@@ -1,0 +1,23 @@
+package layout;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+
+public class DemoBorderLayout extends JFrame {
+	
+	public DemoBorderLayout() {
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		initComponents();
+	}
+	
+	public void initComponents() {
+		this.setLayout(new BorderLayout());
+		
+		DemoGridLayout panelNORTH = new DemoGridLayout();
+		this.add(panelNORTH, BorderLayout.NORTH);
+		
+		this.pack();
+	}
+
+}

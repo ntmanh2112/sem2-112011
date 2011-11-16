@@ -1,0 +1,33 @@
+package view;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+public class Home extends JFrame {
+	JMenuBar jMenuBar;
+	JMenu menuFile;
+	JMenuItem itemExit;
+	
+	public Home() {
+		initComponents();
+	}
+
+	private void initComponents() {
+		Container c = this.getContentPane();
+		this.setSize(600, 600);
+		this.setLayout(null);
+		
+		jMenuBar = new JMenuBar();
+		
+		menuFile = new JMenu("File");
+		
+		
+		this.setJMenuBar(menubar);
+		this.setVisible(true);
+	}
+
+}

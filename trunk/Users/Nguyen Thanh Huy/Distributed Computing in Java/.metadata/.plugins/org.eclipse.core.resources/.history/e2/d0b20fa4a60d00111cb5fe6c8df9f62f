@@ -1,0 +1,21 @@
+package controller;
+
+import view.Home;
+import view._11ChooseLogin;
+import view._12LoginToServer;
+import view._13LogManagement;
+import view._14UpdatePharmacy;
+
+public class Action {
+	Home home;
+	_11ChooseLogin chooseLogin;
+	_12LoginToServer loginToServer;
+	_13LogManagement logManagement;
+	_14UpdatePharmacy updatePharmacy;
+	
+	public Action(Home _home, _11ChooseLogin chooseLogin, _12LoginToServer loginToServer, _13LogManagement logManagement, _14UpdatePharmacy updatePharmacy) {
+		this.home = _home;
+		this.chooseLogin = chooseLogin;
+		this.loginToServer = loginToServer;
+	}
+}

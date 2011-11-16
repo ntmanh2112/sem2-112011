@@ -1,0 +1,13 @@
+package layout;
+
+public class DemoBorderLayout {
+	
+	public DemoBorderLayout() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	initComponents() {
+		
+	}
+
+}

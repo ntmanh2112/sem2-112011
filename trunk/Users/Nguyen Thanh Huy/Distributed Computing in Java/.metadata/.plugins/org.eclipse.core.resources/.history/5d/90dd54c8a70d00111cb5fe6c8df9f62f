@@ -1,0 +1,31 @@
+package controller;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import view.Home;
+import view._11ChooseLogin;
+import view._12LoginToServer;
+import view._13LogManagement;
+import view._14UpdatePharmacy;
+
+public class Action implements ActionListener {
+	Home home;
+	_11ChooseLogin chooseLogin;
+	_12LoginToServer loginToServer;
+	_13LogManagement logManagement;
+	_14UpdatePharmacy updatePharmacy;
+	
+	public Action(Home _home) {
+		this.home = _home;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if (e.getSource().equals(home.itemExit)) {
+			System.exit(1);
+		}
+	}
+	
+	
+}

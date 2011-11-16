@@ -1,0 +1,15 @@
+package layout;
+
+import javax.swing.JFrame;
+
+public class DemoBorderLayout extends JFrame {
+	
+	public DemoBorderLayout() {
+		initComponents();
+	}
+	
+	public void initComponents() {
+		
+	}
+
+}
