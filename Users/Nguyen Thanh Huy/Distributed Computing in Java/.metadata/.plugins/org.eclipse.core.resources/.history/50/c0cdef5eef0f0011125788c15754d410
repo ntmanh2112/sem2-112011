@@ -1,0 +1,26 @@
+package layout;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+public class DemoGridLayout extends JPanel {
+	public DemoGridLayout() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void initComponents() {
+		this.setLayout(new GridLayout(1, 2));
+		
+		JButton btn00 = new JButton("O 00");
+		JButton btn01 = new JButton("O 01");
+		JButton btn10 = new JButton("O 10");
+		JButton btn11 = new JButton("O 11");
+		
+		this.add(btn00);
+		this.add(btn01);
+		this.add(btn10);
+		this.add(btn11);
+	}
+}

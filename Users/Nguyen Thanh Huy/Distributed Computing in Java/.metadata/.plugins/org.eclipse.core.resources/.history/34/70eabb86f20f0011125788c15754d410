@@ -1,0 +1,13 @@
+package layout;
+
+public class DemoBorderLayout {
+	
+	public DemoBorderLayout() {
+		initComponents();
+	}
+	
+	initComponents() {
+		
+	}
+
+}

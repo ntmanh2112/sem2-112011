@@ -1,0 +1,16 @@
+package layout;
+
+import javax.swing.JFrame;
+
+public class DemoBorderLayout extends JFrame {
+	
+	public DemoBorderLayout() {
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		initComponents();
+	}
+	
+	public void initComponents() {
+		
+	}
+
+}

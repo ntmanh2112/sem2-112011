@@ -1,0 +1,7 @@
+package controller;
+
+import view.Home;
+
+public class Action {
+	Home home;
+}
