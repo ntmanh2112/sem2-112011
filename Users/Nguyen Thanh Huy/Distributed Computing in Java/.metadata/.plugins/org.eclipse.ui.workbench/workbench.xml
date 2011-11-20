@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="125" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -34,58 +34,53 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
-<part id="7"/>
-<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginForm.java" partName="LoginForm.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/DemoLoginForm/src/view/LoginForm.java" title="LoginForm.java" tooltip="DemoLoginForm/src/view/LoginForm.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoLoginForm/src/view/LoginForm.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2132" selectionTopPixel="818"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DemoBorderLayout.java" partName="DemoBorderLayout.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assignment2/src/view/DemoBorderLayout.java" title="DemoBorderLayout.java" tooltip="Assignment2/src/view/DemoBorderLayout.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/view/DemoBorderLayout.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1804" selectionTopPixel="888"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DemoLoginForm.java" partName="DemoLoginForm.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/DemoLoginForm/src/DemoLoginForm.java" title="DemoLoginForm.java" tooltip="DemoLoginForm/src/DemoLoginForm.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoLoginForm/src/DemoLoginForm.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="150" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelNorth.java" partName="PanelNorth.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assignment2/src/view/PanelNorth.java" title="PanelNorth.java" tooltip="Assignment2/src/view/PanelNorth.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/view/PanelNorth.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="379" selectionTopPixel="209"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleLogin.java" partName="SimpleLogin.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/DemoLoginForm2/src/view/SimpleLogin.java" title="SimpleLogin.java" tooltip="DemoLoginForm2/src/view/SimpleLogin.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoLoginForm2/src/view/SimpleLogin.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="98" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelCenter.java" partName="PanelCenter.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assignment2/src/view/PanelCenter.java" title="PanelCenter.java" tooltip="Assignment2/src/view/PanelCenter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/view/PanelCenter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="932" selectionTopPixel="299"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_11ChooseLogin.java" partName="_11ChooseLogin.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assingment1/src/view/_11ChooseLogin.java" title="_11ChooseLogin.java" tooltip="Assingment1/src/view/_11ChooseLogin.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assingment1/src/view/_11ChooseLogin.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="431" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelSouth.java" partName="PanelSouth.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assignment2/src/view/PanelSouth.java" title="PanelSouth.java" tooltip="Assignment2/src/view/PanelSouth.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/view/PanelSouth.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="535" selectionTopPixel="162"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_12LoginToServer.java" partName="_12LoginToServer.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assingment1/src/view/_12LoginToServer.java" title="_12LoginToServer.java" tooltip="Assingment1/src/view/_12LoginToServer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assingment1/src/view/_12LoginToServer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="842" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelWest.java" partName="PanelWest.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assignment2/src/view/PanelWest.java" title="PanelWest.java" tooltip="Assignment2/src/view/PanelWest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/view/PanelWest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="340" selectionTopPixel="45"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_13LogManagement.java" partName="_13LogManagement.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assingment1/src/view/_13LogManagement.java" title="_13LogManagement.java" tooltip="Assingment1/src/view/_13LogManagement.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assingment1/src/view/_13LogManagement.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="536" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GridBagDemo.java" partName="GridBagDemo.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assignment2/src/view/GridBagDemo.java" title="GridBagDemo.java" tooltip="Assignment2/src/view/GridBagDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/view/GridBagDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="343" selectionTopPixel="203"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_14UpdatePharmacy.java" partName="_14UpdatePharmacy.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assingment1/src/view/_14UpdatePharmacy.java" title="_14UpdatePharmacy.java" tooltip="Assingment1/src/view/_14UpdatePharmacy.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assingment1/src/view/_14UpdatePharmacy.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3452" selectionTopPixel="1358"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Action.java" partName="Action.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assingment1/src/controller/Action.java" title="Action.java" tooltip="Assingment1/src/controller/Action.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assingment1/src/controller/Action.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1473" selectionTopPixel="368"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Home.java" partName="Home.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assingment1/src/view/Home.java" title="Home.java" tooltip="Assingment1/src/view/Home.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assingment1/src/view/Home.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1326" selectionTopPixel="413"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Assgin11.java" partName="Assgin11.java" path="D:/Server/GOOGLE CODE/JAVA/APTECH-JAVA-SEM2-THAY-THIEN/Users/Nguyen Thanh Huy/Distributed Computing in Java/Assignment2/src/viewassignment1withgridbaglayout/Assgin11.java" title="Assgin11.java" tooltip="Assignment2/src/viewassignment1withgridbaglayout/Assgin11.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment2/src/viewassignment1withgridbaglayout/Assgin11.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="2680" selectionTopPixel="1229"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" currentWorkingSetName="Aggregate for window 1320372342182" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
 <view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
 <viewState/>
 </view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" currentWorkingSetName="Aggregate for window 1320372342182" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (20 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -94,9 +89,14 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1320372342182">
-<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
@@ -121,17 +121,14 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -182,38 +179,30 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
-<view id="org.eclipse.team.ui.GenericHistoryView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.team.ui.GenericHistoryView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">
@@ -221,25 +210,31 @@
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.74959874" ratioLeft="467" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
-<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -252,162 +247,158 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assingment1/src/controller/Action.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assingment1/src/view/Home.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DangNhap/src/view/loginForm.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assingment1/src/view/_13LogManagement.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assingment1/src/view/_12LoginToServer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment2/src/viewassignment1withgridbaglayout/Assgin11.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assingment1/src/view/_11ChooseLogin.java"/>
 </editors>
-<item historyLabel="loginForm.java" index="2">
-<position info="not_deleted" x="1068" y="0"/>
-</item>
-<item historyLabel="loginForm.java" index="2">
-<position info="not_deleted" x="2642" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
+<item historyLabel="Assgin11.java" index="0">
 <position/>
 </item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="1137" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="1612" y="0"/>
 </item>
-<item historyLabel="loginForm.java" index="2">
-<position info="not_deleted" x="2642" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="1698" y="0"/>
 </item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="1137" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
+<item historyLabel="Assgin11.java" index="0">
 <position/>
 </item>
-<item historyLabel="Home.java" index="1">
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="1731" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3292" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="1985" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2043" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3292" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2204" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3288" y="0"/>
+</item>
+<item historyLabel="_11ChooseLogin.java" index="1">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3288" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2385" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2611" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="1726" y="0"/>
+</item>
+<item historyLabel="_11ChooseLogin.java" index="1">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="1726" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2611" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2029" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2350" y="0"/>
+</item>
+<item historyLabel="_11ChooseLogin.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2350" y="0"/>
+</item>
+<item historyLabel="Assgin11.java" index="0">
 <position/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="289" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2518" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="257" y="6"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3288" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
+<item historyLabel="Assgin11.java" index="0">
 <position/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="991" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2682" y="0"/>
 </item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="355" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2702" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="991" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="355" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="782" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="471" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="782" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="781" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="1028" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="1326" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="471" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="1326" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="471" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
+<item historyLabel="Assgin11.java" index="0">
 <position/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1575" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2801" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1186" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3292" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1248" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3288" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1247" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2968" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1575" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="2991" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1319" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1435" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3087" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1570" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3292" y="0"/>
 </item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="1326" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3288" y="0"/>
 </item>
-<item historyLabel="_13LogManagement.java" index="3">
-<position info="not_deleted" x="1992" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position/>
 </item>
-<item historyLabel="_12LoginToServer.java" index="4">
-<position info="not_deleted" x="842" y="0"/>
+<item historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3250" y="0"/>
 </item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1570" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1097" y="0"/>
-</item>
-<item historyLabel="Home.java" index="1">
-<position info="not_deleted" x="1326" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1097" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1020" y="0"/>
-</item>
-<item historyLabel="_11ChooseLogin.java" index="5">
-<position info="not_deleted" x="431" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1020" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1186" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1531" y="0"/>
-</item>
-<item historyLabel="_13LogManagement.java" index="3">
-<position info="not_deleted" x="536" y="0"/>
-</item>
-<item historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1531" y="0"/>
-</item>
-<item active="true" historyLabel="Action.java" index="0">
-<position info="not_deleted" x="1570" y="0"/>
+<item active="true" historyLabel="Assgin11.java" index="0">
+<position info="not_deleted" x="3266" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -415,13 +406,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -433,6 +417,42 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_11ChooseLogin.java" tooltip="Assingment1/src/view/_11ChooseLogin.java">
+<persistable path="/Assingment1/src/view/_11ChooseLogin.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Assgin11.java" tooltip="Assignment2/src/viewassignment1withgridbaglayout/Assgin11.java">
+<persistable path="/Assignment2/src/viewassignment1withgridbaglayout/Assgin11.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GridBagDemo.java" tooltip="Assignment2/src/view/GridBagDemo.java">
+<persistable path="/Assignment2/src/view/GridBagDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelEast.java" tooltip="Assignment2/src/view/PanelEast.java">
+<persistable path="/Assignment2/src/view/PanelEast.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelSouth.java" tooltip="Assignment2/src/view/PanelSouth.java">
+<persistable path="/Assignment2/src/view/PanelSouth.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelCenter.java" tooltip="Assignment2/src/view/PanelCenter.java">
+<persistable path="/Assignment2/src/view/PanelCenter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Panels.java" tooltip="Assignment2/src/view/Panels.java">
+<persistable path="/Assignment2/src/view/Panels.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BorderLayout.java" tooltip="Assignment2/src/view/BorderLayout.java">
+<persistable path="/Assignment2/src/view/BorderLayout.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DemoGridLayout.java" tooltip="Assingment1/src/layout/DemoGridLayout.java">
+<persistable path="/Assingment1/src/layout/DemoGridLayout.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DemoBorderLayout.java" tooltip="Assingment1/src/layout/DemoBorderLayout.java">
+<persistable path="/Assingment1/src/layout/DemoBorderLayout.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Border.java" tooltip="Assignment2/src/view/Border.java">
+<persistable path="/Assignment2/src/view/Border.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="view.java" tooltip="Assignment2/src/view.java">
+<persistable path="/Assignment2/src/view.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Home.java" tooltip="Assingment1/src/view/Home.java">
 <persistable path="/Assingment1/src/view/Home.java"/>
 </file>
@@ -441,27 +461,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Action.java" tooltip="Assingment1/src/controller/Action.java">
 <persistable path="/Assingment1/src/controller/Action.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_14UpdatePharmacy.java" tooltip="Assingment1/src/view/_14UpdatePharmacy.java">
-<persistable path="/Assingment1/src/view/_14UpdatePharmacy.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginToServer.java" tooltip="Assingment1/src/view/LoginToServer.java">
-<persistable path="/Assingment1/src/view/LoginToServer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChooseLogin.java" tooltip="Assingment1/src/view/ChooseLogin.java">
-<persistable path="/Assingment1/src/view/ChooseLogin.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleLogin.java" tooltip="DemoLoginForm2/src/view/SimpleLogin.java">
-<persistable path="/DemoLoginForm2/src/view/SimpleLogin.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DemoLoginForm.java" tooltip="DemoLoginForm/src/DemoLoginForm.java">
-<persistable path="/DemoLoginForm/src/DemoLoginForm.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FormLogin.java" tooltip="2011.11.04(FormLogin)/src/view/FormLogin.java">
-<persistable path="/2011.11.04(FormLogin)/src/view/FormLogin.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Components.java" tooltip="Domo Example/src/view/Components.java">
-<persistable path="/Domo Example/src/view/Components.java"/>
 </file>
 </mruList>
 </workbench>
