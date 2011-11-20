@@ -28,6 +28,7 @@ public class DemoGridLayout extends JPanel {
 		JButton btn11 = new JButton();
 		btn11.setIcon(new ImageIcon("images/Log-Out-icon.png"));
 		
+		
 		this.add(btn00);
 		this.add(btn01);
 		this.add(btn10);
