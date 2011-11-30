@@ -5,6 +5,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import javax.swing.text.StyledEditorKit.BoldAction;
+
 import util.DataUtil;
 
 import model.ThanhVienModel;
@@ -33,7 +35,7 @@ public class ThanhVienDao {
 		return model;
 	}
 
-public static ArrayList<ThanhVienModel> getallThanhVien() {
+	public static ArrayList<ThanhVienModel> getallThanhVien() {
 	ArrayList<ThanhVienModel> listThanhVien = new ArrayList<ThanhVienModel>();
 	
 	try {
@@ -58,4 +60,25 @@ public static ArrayList<ThanhVienModel> getallThanhVien() {
 	return listThanhVien;
 }
 
+	public static Boolean updateThanhVien(ThanhVienModel model) {
+		
+		Boolean kq = false;
+		
+		String sql = "update ThanhVien set Ten_Dang_Nhap = '" + model.getUserName() + "',Mat_Khau = '" + model.getPassword() + "',Vai_Tro =" + model.getRoles() +" where ID = " + model.getId() +"";
+		kq = DataUtil.executeNonQuery(sql);
+
+		return kq;
+		
+	}
+
+public static Boolean deleteThanhVien(ThanhVienModel model) {
+		
+		Boolean kq = false;
+		
+		String sql = "delete ThanhVien where ID = " + model.getId() +"";
+		kq = DataUtil.executeNonQuery(sql);
+
+		return kq;
+		
+	}
 }
