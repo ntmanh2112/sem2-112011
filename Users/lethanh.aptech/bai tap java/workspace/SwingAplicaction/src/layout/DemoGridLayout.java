@@ -39,5 +39,6 @@ public class DemoGridLayout extends JPanel {
 		this.add(btn11);
 		this.add(btn5);
 		this.add(btn6);
+		
 	}
 }
