@@ -3,6 +3,7 @@ package view;
 import java.awt.BorderLayout;
 
 import javax.swing.JComboBox;
+import javax.swing.JFormattedTextField;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JFrame;
@@ -25,9 +26,11 @@ import model.NhanVienModel;
 import model.PhongBanModel;
 
 import javax.swing.JTextArea;
+import javax.swing.text.MaskFormatter;
 
 import com.toedter.calendar.JDateChooser;
 import common.KeyValue;
+import javax.swing.ImageIcon;
 
 public class AddNewNhanVien extends JFrame {
 
@@ -46,7 +49,7 @@ public class AddNewNhanVien extends JFrame {
 	private JLabel jLabel8 = null;
 	private JTextField txtTenLot = null;
 	private JTextField txtTenNV = null;
-	private JTextField txtMaNv = null;
+	private JFormattedTextField txtMaNv = null;
 	private JDateChooser txtNgaySinhNV = null;
 	private JTextField txtDiaChi = null;
 	private JComboBox txtGioiTinh = null;
@@ -71,6 +74,26 @@ public class AddNewNhanVien extends JFrame {
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+			}
+		}
+		ArrayList<NhanVienModel> listNhanVien = NhanVienDAO.getAllNhanVien();
+		for (NhanVienModel nql : listNhanVien) {
+			KeyValue item = new KeyValue(nql.getManv(), nql.getHonv() + " "
+					+ nql.getTenlot() + " " + nql.getTennv());
+			txtMaNQL.addItem(item);
+			if (model.getManql() != null
+					&& item.getKey().equals(model.getManql())) {
+				txtMaNQL.setSelectedItem(item);
+			}
+		}
+
+		ArrayList<PhongBanModel> listPhongBan = PhongBanDAO.getAll();
+		for (PhongBanModel phong : listPhongBan) {
+			KeyValue item = new KeyValue(phong.getMaPHG(), phong.getTenPHG());
+
+			txtDiemPHG.addItem(item);
+			if (item.getKey().equals(model.getPhg())) {
+				txtDiemPHG.setSelectedItem(item);
 			}
 		}
 	}
@@ -116,6 +139,10 @@ public class AddNewNhanVien extends JFrame {
 				txtDiemPHG.setSelectedItem(item);
 			}
 		}
+		/*if(!validateModel(model)) {
+			
+			return;
+		}*/
 
 		btnAdd.setText("Update");
 	}
@@ -204,8 +231,11 @@ public class AddNewNhanVien extends JFrame {
 	 */
 	private JTextField getTxtHoNV() {
 		if (txtHoNV == null) {
-			txtHoNV = new JTextField();
-			txtHoNV.setBounds(new Rectangle(105, 15, 105, 20));
+			
+				txtHoNV = new JTextField();
+				txtHoNV.setBounds(new Rectangle(105, 15, 105, 20));
+			
+			
 		}
 		return txtHoNV;
 	}
@@ -217,8 +247,10 @@ public class AddNewNhanVien extends JFrame {
 	 */
 	private JTextField getTxtTenLot() {
 		if (txtTenLot == null) {
-			txtTenLot = new JTextField();
-			txtTenLot.setBounds(new Rectangle(104, 48, 106, 23));
+			
+				txtTenLot = new JTextField();
+				txtTenLot.setBounds(new Rectangle(104, 48, 106, 23));
+			
 		}
 		return txtTenLot;
 	}
@@ -230,8 +262,10 @@ public class AddNewNhanVien extends JFrame {
 	 */
 	private JTextField getTxtTenNV() {
 		if (txtTenNV == null) {
-			txtTenNV = new JTextField();
-			txtTenNV.setBounds(new Rectangle(104, 85, 105, 20));
+			
+				txtTenNV = new JTextField();
+				txtTenNV.setBounds(new Rectangle(104, 85, 105, 20));
+			
 		}
 		return txtTenNV;
 	}
@@ -241,10 +275,23 @@ public class AddNewNhanVien extends JFrame {
 	 * 
 	 * @return javax.swing.JTextField
 	 */
-	private JTextField getTxtMaNv() {
+	private JFormattedTextField getTxtMaNv() {
 		if (txtMaNv == null) {
-			txtMaNv = new JTextField();
-			txtMaNv.setBounds(new Rectangle(104, 118, 106, 20));
+			try {
+				MaskFormatter mask = new MaskFormatter("#########");
+				txtMaNv = new JFormattedTextField(mask);
+				txtMaNv.setBounds(new Rectangle(104, 118, 106, 20));
+				txtMaNv.addFocusListener(new java.awt.event.FocusAdapter() {
+					public void focusLost(java.awt.event.FocusEvent e) {
+						if(txtMaNv.getText().trim().length()<9)
+							JOptionPane.showMessageDialog(null, "Mã NV Không được nhỏ hơn 9","Thông Báo",JOptionPane.ERROR_MESSAGE);
+						System.out.println("focusLost()"); // TODO Auto-generated Event stub focusLost()
+					}
+				});
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		return txtMaNv;
 	}
@@ -306,8 +353,10 @@ public class AddNewNhanVien extends JFrame {
 	 */
 	private JTextField getTxtLuong() {
 		if (txtLuong == null) {
-			txtLuong = new JTextField();
-			txtLuong.setBounds(new Rectangle(391, 89, 106, 20));
+			
+				txtLuong = new JTextField();
+				txtLuong.setBounds(new Rectangle(391, 89, 106, 20));
+			
 		}
 		return txtLuong;
 	}
@@ -346,7 +395,8 @@ public class AddNewNhanVien extends JFrame {
 	private JButton getBtnAdd() {
 		if (btnAdd == null) {
 			btnAdd = new JButton();
-			btnAdd.setBounds(new Rectangle(164, 197, 75, 25));
+			btnAdd.setBounds(new Rectangle(157, 197, 82, 25));
+			btnAdd.setIcon(new ImageIcon(getClass().getResource("/images/button-ok-icon.png")));
 			btnAdd.setText("Add");
 			btnAdd.addActionListener(new ActionListener() {
 
@@ -354,19 +404,24 @@ public class AddNewNhanVien extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 					// TODO Auto-generated method stub
 					NhanVienModel model = new NhanVienModel();
-					model.setHonv(txtHoNV.getText());
-					model.setTenlot(txtTenLot.getText());
-					model.setTennv(txtTenNV.getText());
-					model.setManv(txtMaNv.getText());
+					model.setHonv(txtHoNV.getText().trim());
+					model.setTenlot(txtTenLot.getText().trim());
+					model.setTennv(txtTenNV.getText().trim());
+					model.setManv(txtMaNv.getText().trim());
 					SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
-					model.setNgsinh(sdf.format(txtNgaySinhNV.getDate()));
-					model.setDiachi(txtDiaChi.getText());
+					model.setNgsinh(sdf.format(txtNgaySinhNV.getDate()).trim());
+					model.setDiachi(txtDiaChi.getText().trim());
 					model.setPhai(txtGioiTinh.getSelectedItem().toString());
-					model.setLuong(txtLuong.getText());
+					model.setLuong(txtLuong.getText().trim());
 					model.setManql(((KeyValue) txtMaNQL.getSelectedItem())
 							.getKey());
 					model.setPhg(((KeyValue) txtDiemPHG.getSelectedItem())
 							.getKey());
+					if(!validateModel(model)) {
+						
+						return;
+					}
+					
 					if (btnAdd.getText().equals("Add")) {
 
 						Boolean kq = NhanVienDAO.insertNhanVien(model);
@@ -404,7 +459,8 @@ public class AddNewNhanVien extends JFrame {
 	private JButton getBtnCancel() {
 		if (btnCancel == null) {
 			btnCancel = new JButton();
-			btnCancel.setBounds(new Rectangle(285, 197, 77, 24));
+			btnCancel.setBounds(new Rectangle(285, 197, 98, 24));
+			btnCancel.setIcon(new ImageIcon(getClass().getResource("/images/Symbols-Delete-icon.png")));
 			btnCancel.setText("Cancel");
 			btnCancel.addActionListener(new ActionListener() {
 
@@ -436,5 +492,55 @@ public class AddNewNhanVien extends JFrame {
 		}
 		return jTextArea;
 	}
+	private Boolean validateModel(NhanVienModel mo) {
+    	
+    	if( mo.getHonv() == null || mo.getHonv().equals("")){ 
+    		JOptionPane.showMessageDialog(null, "Họ Không Hợp lệ","Thông Báo",JOptionPane.ERROR_MESSAGE);
+    		return false;
+    	}
+    	if( mo.getTenlot() == null || mo.getTenlot().equals("")){ 
+    		JOptionPane.showMessageDialog(null, "Tên Lót Không Hợp lệ","Thông Báo",JOptionPane.ERROR_MESSAGE);
+    		return false;
+    	}
+    	if( mo.getTennv()== null || mo.getTennv().equals("")){
+    		JOptionPane.showMessageDialog(null, "Tên Không Hợp lệ","Thông Báo",JOptionPane.ERROR_MESSAGE);
+    		return false;
+    	}
+    	if( mo.getManv() == null || mo.getManv().equals("")){ 
+    		JOptionPane.showMessageDialog(null, "Mã NV Không Hợp lệ","Thông Báo",JOptionPane.ERROR_MESSAGE);
+    		return false;
+    	}
+    	if( mo.getNgsinh() == null || mo.getNgsinh().equals("")){ 
+    		
+    		return false;
+    	}
+    	if( mo.getDiachi() == null || mo.getDiachi().equals("")){
+    		JOptionPane.showMessageDialog(null, "Địa Chỉ Không Hợp lệ","Thông Báo",JOptionPane.ERROR_MESSAGE);
+    		return false;
+    	}
+    	if( mo.getPhai() == null || mo.getPhai().equals("")){ 
+    		return false;
+    	}
+    	if( mo.getLuong() == null || mo.getLuong().equals("")){ 
+    		JOptionPane.showMessageDialog(null, "Lương Không Được Để Trống Và Không Được có chữ","Thông Báo",JOptionPane.ERROR_MESSAGE);
+    		return false;
+    		
+    	}
+    	try {
+			int tam = Integer.parseInt(mo.getLuong());
+		} catch (NumberFormatException e) {
+			JOptionPane.showMessageDialog(null, "Lương Không  có chữ","Thông Báo",JOptionPane.ERROR_MESSAGE);
+			return false;
+		}
+    	if( mo.getManql() == null || mo.getManql().equals("")){ 
+    		return false;
+    	}
+    	if( mo.getPhg() == null || mo.getPhg().equals("")){ 
+    		return false;
+    	}
+		return true;
+    	
+    }
+ 
 
 } // @jve:decl-index=0:visual-constraint="56,10"
