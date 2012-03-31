@@ -72,6 +72,45 @@ public class NhanVienModel {
 	private String manql;
 	private String phg;
 	 
-    
+    public Boolean validateModel() {
+    	if( manv == null || manv.equals("")){ 
+    		return false;
+    	}
+    	if( honv == null || honv.equals("")){ 
+    		return false;
+    	}
+    	if( tenlot == null || tenlot.equals("")){ 
+    		return false;
+    	}
+    	if( tennv == null || tennv.equals("")){ 
+    		return false;
+    	}
+    	if( ngsinh == null || ngsinh.equals("")){ 
+    		return false;
+    	}
+    	if( diachi == null || diachi.equals("")){ 
+    		return false;
+    	}
+    	if( phai == null || phai.equals("")){ 
+    		return false;
+    	}
+    	if( luong == null || luong.equals("")){ 
+    		return false;
+    		
+    	}
+    	try {
+			int tam = Integer.parseInt(luong);
+		} catch (NumberFormatException e) {
+			return false;
+		}
+    	if( manql == null || manql.equals("")){ 
+    		return false;
+    	}
+    	if( phg == null || phg.equals("")){ 
+    		return false;
+    	}
+		return true;
+    	
+    }
 
 }
